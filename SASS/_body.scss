@@ -1,0 +1,40 @@
+.pad {
+	padding: 0;
+}
+.absolute {
+	position: absolute;
+	width: 70%;
+	left: 15%;
+	text-align: center;
+}
+.section-1{
+top: 20%;
+}
+
+.section-2 {
+	background-color: #003366;
+	padding: 2em;
+	color: $primary-red;
+	float: left;
+}
+.section-3{
+	top: 30%;
+}
+
+.section-4 {
+	background-color: $primary-red;
+	padding: 2em;
+	color: $white;
+	float: left;
+}
+
+.section-6 {
+	background-color: $yellow;
+	padding: 2em;
+	color: $bd-black;
+	float: left;
+}
+
+.section-7{
+	top: 40%;
+}

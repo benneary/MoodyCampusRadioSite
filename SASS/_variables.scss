@@ -1,0 +1,34 @@
+$font-stack: "tk-brandon-grotesque", Helvetica, sans-serif;
+
+$light: 300;
+$regular: 400;
+$bold: 600;
+
+// Color Palette
+$light-blue: #133253;
+$blue: #1e2429;
+$dark-blue: #003366; 
+
+$primary-red: #cc3333;
+$yellow: #ffcc00;
+
+$light-grey: #a7a9ac;
+$medium-grey: #8c8e90;
+$dark-grey: #425058;
+
+$bd-black: #333333;
+$white: #ffffff;
+
+$primary: #4499c8;
+$warning: #d2a55e;
+$danger: #d25e5e;
+
+// Break Points
+$break-xs: 480px;
+$break-sm: 768px;
+$break-md: 992px;
+$break-lg: 1200px;
+$break-xl: 1400px;
+
+@import "typography";
+@import "layoutgrid";

@@ -1,0 +1,250 @@
+/* line 1, SASS/_typography.scss */
+h1 {
+  font-family: "league-gothic";
+  font-size: 9em;
+  text-align: center;
+  color: white;
+}
+
+/* line 8, SASS/_typography.scss */
+h2 {
+  font-family: "league-gothic";
+  font-size: 5em;
+  text-align: center;
+}
+
+/* line 1, SASS/_layoutgrid.scss */
+.col-12 {
+  width: 100%;
+}
+
+/* line 2, SASS/_layoutgrid.scss */
+.col-11 {
+  width: 91%;
+}
+
+/* line 3, SASS/_layoutgrid.scss */
+.col-10 {
+  width: 83%;
+}
+
+/* line 4, SASS/_layoutgrid.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 5, SASS/_layoutgrid.scss */
+.col-8 {
+  width: 66%;
+}
+
+/* line 6, SASS/_layoutgrid.scss */
+.col-7 {
+  width: 58.3%;
+}
+
+/* line 7, SASS/_layoutgrid.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 8, SASS/_layoutgrid.scss */
+.col-5 {
+  width: 42%;
+}
+
+/* line 9, SASS/_layoutgrid.scss */
+.col-4 {
+  width: 33%;
+}
+
+/* line 10, SASS/_layoutgrid.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 11, SASS/_layoutgrid.scss */
+.col-2 {
+  width: 16.6%;
+}
+
+/* line 12, SASS/_layoutgrid.scss */
+.col-1 {
+  width: 8.3%;
+}
+
+/* line 13, SASS/_layoutgrid.scss */
+.float {
+  float: left;
+}
+
+/* line 7, SASS/_navbar.scss */
+i {
+  font-size: 1.3em;
+}
+
+/* line 11, SASS/_navbar.scss */
+.width-fix {
+  width: 20%;
+}
+@media screen and (max-width: 768px) and (min-width: 0px) {
+  /* line 11, SASS/_navbar.scss */
+  .width-fix {
+    width: auto;
+  }
+}
+
+/* line 19, SASS/_navbar.scss */
+.navbar-center {
+  margin-left: 10%;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  /* line 19, SASS/_navbar.scss */
+  .navbar-center {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 0px) {
+  /* line 19, SASS/_navbar.scss */
+  .navbar-center {
+    margin-left: 0;
+  }
+}
+
+/* line 30, SASS/_navbar.scss */
+.navbar-default {
+  font-family: "brandon-grotesque";
+  font-size: 1.15em;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(50, 50, 50, 0.14);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(50, 50, 50, 0.14);
+  box-shadow: 0px 4px 17px 0px rgba(50, 50, 50, 0.14);
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: white;
+  border-color: white;
+}
+/* line 43, SASS/_navbar.scss */
+.navbar-default .navbar-brand {
+  color: #343434;
+}
+/* line 45, SASS/_navbar.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #d73838;
+}
+/* line 47, SASS/_navbar.scss */
+.navbar-default .navbar-text {
+  color: #343434;
+}
+/* line 51, SASS/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #343434;
+}
+/* line 53, SASS/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #d73838;
+}
+/* line 56, SASS/_navbar.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #d73838;
+  background-color: white;
+}
+/* line 60, SASS/_navbar.scss */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #d73838;
+  background-color: white;
+}
+/* line 63, SASS/_navbar.scss */
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+/* line 65, SASS/_navbar.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: white;
+}
+/* line 67, SASS/_navbar.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #343434;
+}
+/* line 70, SASS/_navbar.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: none;
+  border-color: #003366;
+}
+/* line 74, SASS/_navbar.scss */
+.navbar-default .navbar-link {
+  color: #343434;
+}
+/* line 76, SASS/_navbar.scss */
+.navbar-default .navbar-link:hover {
+  color: #d73838;
+}
+
+@media (max-width: 767px) {
+  /* line 80, SASS/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #343434;
+  }
+  /* line 82, SASS/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #d73838;
+  }
+  /* line 85, SASS/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #d73838;
+    background-color: white;
+  }
+}
+/* line 1, SASS/_body.scss */
+.pad {
+  padding: 0;
+}
+
+/* line 4, SASS/_body.scss */
+.absolute {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  text-align: center;
+}
+
+/* line 10, SASS/_body.scss */
+.section-1 {
+  top: 20%;
+}
+
+/* line 14, SASS/_body.scss */
+.section-2 {
+  background-color: #003366;
+  padding: 2em;
+  color: #d73838;
+  float: left;
+}
+
+/* line 20, SASS/_body.scss */
+.section-3 {
+  top: 30%;
+}
+
+/* line 24, SASS/_body.scss */
+.section-4 {
+  background-color: #d73838;
+  padding: 2em;
+  color: white;
+  float: left;
+}
+
+/* line 31, SASS/_body.scss */
+.section-6 {
+  background-color: #e4a721;
+  padding: 2em;
+  color: #343434;
+  float: left;
+}
+
+/* line 38, SASS/_body.scss */
+.section-7 {
+  top: 40%;
+}
